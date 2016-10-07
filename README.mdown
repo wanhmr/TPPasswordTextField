@@ -11,7 +11,7 @@
 
 ####效果如下
 
-![IMG_0766.PNG](http://upload-images.jianshu.io/upload_images/1200356-4f5d7cf053710114.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240))
+![IMG_0766.PNG](http://upload-images.jianshu.io/upload_images/1200356-4f5d7cf053710114.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - ~~有点不完美的就是重叠了的效果不怎么好~~(`已经修复`)
 
