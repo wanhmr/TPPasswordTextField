@@ -1,0 +1,18 @@
+####实现思路
+- 在一个 view 上面添加n + 1个 textfield,其中一个用来输入,剩下的 n 个用来显示,设置其边框和边框颜色.用来输入的设置其的 hidden = YES;
+- 重写 touch begin 方法,当点击 view的时候用来输入的 textfield 成为第一响应者,用来用户输入.监听其值的改变;
+- 遍历输入作用的 textfield, 分割其的每个值,在显示的 textfield 上显示.
+- 当密码的长度达到需要的长度时,辞去第一响应者. 这里可以使用 block 来传递 password 的值.
+- 提供一个清除 password 的方法
+- 提供改变边框颜色的方法
+- 提供改变格子间距的方法
+
+
+####效果如下
+
+![IMG_0766.PNG](http://upload-images.jianshu.io/upload_images/1200356-4f5d7cf053710114.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240))
+
+- ~~有点不完美的就是重叠了的效果不怎么好~~(`已经修复`)
+
+
+[**GitHub 链接**](https://github.com/wanhmr/TPPasswordTextField)
